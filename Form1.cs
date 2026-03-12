@@ -68,7 +68,7 @@ namespace CatchButton
             score = 0;
 
             btnCatch.Size = new Size(623, 378);   // 원래 버튼 크기
-            btnCatch.Location = new Point(344, 232); // 처음 위치
+            btnCatch.Location = new Point(344, 232); 
 
             btnCatch.Enabled = true;
             btnRestart.Visible = false;
