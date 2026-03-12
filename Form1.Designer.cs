@@ -33,12 +33,13 @@
             // 
             // btnCatch
             // 
+            btnCatch.BackColor = Color.Yellow;
             btnCatch.Location = new Point(344, 232);
             btnCatch.Name = "btnCatch";
             btnCatch.Size = new Size(220, 94);
             btnCatch.TabIndex = 0;
             btnCatch.Text = "나를 잡아봐";
-            btnCatch.UseVisualStyleBackColor = true;
+            btnCatch.UseVisualStyleBackColor = false;
             btnCatch.Click += btnCatch_Click;
             btnCatch.MouseEnter += btnCatch_MouseEnter;
             // 
@@ -49,7 +50,7 @@
             ClientSize = new Size(1111, 735);
             Controls.Add(btnCatch);
             Name = "Form1";
-            Text = "Form1";
+            Text = "버튼잡기 게임";
             ResumeLayout(false);
         }
 
