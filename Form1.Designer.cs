@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             btnCatch = new Button();
+            btnRestart = new Button();
             SuspendLayout();
             // 
             // btnCatch
             // 
             btnCatch.BackColor = Color.Yellow;
             btnCatch.Font = new Font("맑은 고딕", 12F, FontStyle.Regular, GraphicsUnit.Point, 129);
-            btnCatch.Location = new Point(344, 232);
+            btnCatch.Location = new Point(200, 200);
             btnCatch.Name = "btnCatch";
             btnCatch.Size = new Size(623, 378);
             btnCatch.TabIndex = 0;
@@ -44,11 +45,23 @@
             btnCatch.Click += btnCatch_Click;
             btnCatch.MouseEnter += btnCatch_MouseEnter;
             // 
+            // btnRestart
+            // 
+            btnRestart.Location = new Point(949, 686);
+            btnRestart.Name = "btnRestart";
+            btnRestart.Size = new Size(150, 46);
+            btnRestart.TabIndex = 1;
+            btnRestart.Text = "재시작";
+            btnRestart.UseVisualStyleBackColor = true;
+            btnRestart.Visible = false;
+            btnRestart.Click += btnRestart_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(14F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1111, 735);
+            Controls.Add(btnRestart);
             Controls.Add(btnCatch);
             Name = "Form1";
             Text = "버튼잡기 게임";
@@ -58,5 +71,6 @@
         #endregion
 
         private Button btnCatch;
+        private Button btnRestart;
     }
 }
