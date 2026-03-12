@@ -34,9 +34,10 @@
             // btnCatch
             // 
             btnCatch.BackColor = Color.Yellow;
+            btnCatch.Font = new Font("맑은 고딕", 12F, FontStyle.Regular, GraphicsUnit.Point, 129);
             btnCatch.Location = new Point(344, 232);
             btnCatch.Name = "btnCatch";
-            btnCatch.Size = new Size(220, 94);
+            btnCatch.Size = new Size(623, 378);
             btnCatch.TabIndex = 0;
             btnCatch.Text = "나를 잡아봐";
             btnCatch.UseVisualStyleBackColor = false;
