@@ -47,12 +47,14 @@
             // 
             // btnRestart
             // 
-            btnRestart.Location = new Point(949, 686);
+            btnRestart.BackColor = SystemColors.GradientInactiveCaption;
+            btnRestart.Font = new Font("휴먼옛체", 18F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            btnRestart.Location = new Point(723, 590);
             btnRestart.Name = "btnRestart";
-            btnRestart.Size = new Size(150, 46);
+            btnRestart.Size = new Size(364, 133);
             btnRestart.TabIndex = 1;
             btnRestart.Text = "재시작";
-            btnRestart.UseVisualStyleBackColor = true;
+            btnRestart.UseVisualStyleBackColor = false;
             btnRestart.Visible = false;
             btnRestart.Click += btnRestart_Click;
             // 

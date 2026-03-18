@@ -7,6 +7,7 @@ namespace CatchButton
         int x = 0;
         int y = 0;
 
+
         public Form1()
         {
             InitializeComponent();
@@ -73,7 +74,7 @@ namespace CatchButton
             btnCatch.Enabled = true;
             btnRestart.Visible = false;
 
-            this.Text = $"점수 : {score}, 좌표 : 0, 0";
+            this.Text = $"점수 : {score}, 좌표 : 200, 200";
         }
     }
 }
